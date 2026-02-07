@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вет-клиника Бетховен</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/appointments.js"></script>
+</head>
+<body>
+    <a href="index.html" class="back">←Назад</a>
+    <div class="objects">
+        <h1>Список записей</h1>
+        <ol id="appointments-list"></ol>
+    </div>
+
+    <!-- Область создания новой записи -->
+    <h1>Добавление новой записи</h1>
+    <input id="add_patient" placeholder="Номер пациента">
+    <input id="add_doctor" placeholder="Номер доктора">
+    <input id="add_date" placeholder="Дата записи (формат 01-01-2020)">
+    <input id="add_reason" placeholder="Причина">
+    <button id="add-btn">Добавить</button>
+
+    <!-- Область изменения информации о записи -->
+    <h1>Изменение информации о записи</h1>
+    <input id="update_id" placeholder="Номер записи">
+    <input id="update_patient" placeholder="Номер пациента">
+    <input id="update_doctor" placeholder="Номер доктора">
+    <input id="update_date" placeholder="Дата записи">
+    <input id="update_reason" placeholder="Причина">
+    <button id="update-btn">Изменить</button>
+
+    <!-- Область удаления записи -->
+    <h1>Удаление записи</h1>
+    <input id="delete_id" placeholder="Номер записи">
+    <button id="delete-btn">Удалить</button>
+
+</body>
+</html>

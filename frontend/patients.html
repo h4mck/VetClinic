@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вет-клиника Бетховен</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/patients.js"></script>
+</head>
+<body>
+    <a href="index.html" class="back">←Назад</a>
+    <div class="objects">
+        <h1>Список пациентов</h1>
+        <ol id="patients-list"></ol>
+    </div>
+
+    <!-- Область создания нового пациента -->
+    <h1>Добавление нового пациента</h1>
+    <input id="add_name" placeholder="Имя">
+    <input id="add_owner" placeholder="Владелец">
+    <button id="add-btn">Добавить</button>
+
+    <!-- Область изменения информации о пациенте -->
+    <h1>Изменение информации о пациенте</h1>
+    <input id="update_id" placeholder="Номер пациента">
+    <input id="update_name" placeholder="Имя">
+    <input id="update_owner" placeholder="Владелец">
+    <button id="update-btn">Изменить</button>
+
+    <!-- Область удаления пациента -->
+    <h1>Удаление пациента</h1>
+    <input id="delete_id" placeholder="Номер пациента">
+    <button id="delete-btn">Удалить</button>
+
+</body>
+</html>
